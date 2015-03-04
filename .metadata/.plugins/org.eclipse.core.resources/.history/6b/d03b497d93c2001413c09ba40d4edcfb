@@ -1,0 +1,17 @@
+/*
+ * CAMERA_REGULATOR.h
+ *
+ *  Created on: 4 mar 2015
+ *      Author: szymon
+ */
+
+#ifndef CAMERA_REGULATOR_H_
+#define CAMERA_REGULATOR_H_
+
+
+#include <opencv/cv.h>
+
+
+
+
+#endif /* CAMERA_REGULATOR_H_ */
