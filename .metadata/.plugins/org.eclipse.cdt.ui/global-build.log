@@ -170,3 +170,1143 @@ Invoking: GCC C++ Linker
 g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
 Finished building target: ALGORYTMY
  
+21:13:20 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:26:54: error: ‘GREY_SCALE’ was not declared in this scope
+     cv::Mat img = cv::imread("OpenCV_Chessboard.png",GREY_SCALE);
+                                                      ^
+../CAMERA_REGULATOR.cpp:31:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=findChessboardCorners(img,csSize,img,1);
+          ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+21:13:28 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:31:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=findChessboardCorners(img,csSize,img,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:13:54 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+21:14:40 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:31:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=findChessboardCorners(img,csSize,img,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:14:56 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:33:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=findChessboardCorners(img,csSize,img,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:15:22 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:33:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=findChessboardCorners(img,csSize,img,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:16:33 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:34:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:17:09 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:17:28 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:17:47 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:18:45 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:19:00 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:19:54 **** Clean-only build of configuration Debug for project ALGORYTMY ****
+make clean 
+rm -rf  ./CAMERA_REGULATOR.o  ./CAMERA_REGULATOR.d  ALGORYTMY
+ 
+21:19:55 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:23:09 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:25:41 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:25:44 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+21:26:30 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:27:07 **** Clean-only build of configuration Debug for project ALGORYTMY ****
+make clean 
+rm -rf  ./CAMERA_REGULATOR.o  ./CAMERA_REGULATOR.d  ALGORYTMY
+ 
+21:27:27 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:27:36 **** Clean-only build of configuration Debug for project ALGORYTMY ****
+make clean 
+rm -rf  ./CAMERA_REGULATOR.o  ./CAMERA_REGULATOR.d  ALGORYTMY
+ 
+21:27:40 **** Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:28:14 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:28:36 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+21:29:01 **** Clean-only build of configuration Debug for project ALGORYTMY ****
+make clean 
+rm -rf  ./CAMERA_REGULATOR.o  ./CAMERA_REGULATOR.d  ALGORYTMY
+ 
+21:29:15 **** Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:29:21 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+21:29:58 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:30:25 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:30:47 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,img,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+21:30:56 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+18:36:11 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+18:36:59 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:35:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:38:24 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:33:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^
+../CAMERA_REGULATOR.cpp:40:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+18:39:00 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:41:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:39:11 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+18:41:07 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:43:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:43:06 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:46:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:43:17 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:46:10: warning: unused variable ‘an’ [-Wunused-variable]
+     bool an=cv::findChessboardCorners(img,csSize,a,1);
+          ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:44:34 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:45:57 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:46:07 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:46:38 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:46:48 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:47:14 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:48:10 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:48:28 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:49:35 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:50:23 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:50:31 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:50:39 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:51:02 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:51:16 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:51:28 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:51:42 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:53:17 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:54:45 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘int main()’:
+../CAMERA_REGULATOR.cpp:55:24: error: ‘image’ was not declared in this scope
+     cv::imshow("OKNO1",image);
+                        ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+18:54:52 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:55:25 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:55:40 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:56:11 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:56:19 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:56:31 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:56:42 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:56:49 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:57:06 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:57:13 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+18:57:20 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:02:43 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:03:17 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:04:07 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:04:52 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:05:30 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:05:45 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:06:18 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:07:38 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:08:16 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:10:16 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:12:29 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:18:55 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:23:32 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:28:29 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:29:21 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:29:31 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:29:55 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:31:36 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+19:50:19 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:52:58 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:53:55 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:54:25 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:54:51 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:57:36 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:57:56 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:58:15 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:58:30 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+19:59:26 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+19:59:46 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+20:00:12 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 

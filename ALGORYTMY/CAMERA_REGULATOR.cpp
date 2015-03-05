@@ -16,19 +16,65 @@
 #include <opencv2/calib3d/calib3d.hpp>
 #include <opencv2/video.hpp>
 #include <opencv2/stitching.hpp>
+#include <iostream>
+#include "DEF.H"
 
+
+
+bool findChessboard(cv::Mat & img)
+{
+
+	cv::Mat corners;
+    CvSize csSize(8,5);
+
+    bool an=cv::findChessboardCorners(img,csSize,corners,1);
+
+    if(an)
+    cv::drawChessboardCorners(img, csSize, corners, 1);;
+
+
+
+	return an;
+}
 
 int main()
 {
-	cv::Mat a;
 
-	cv::VideoCapture cap(0);
+    cv::Mat img = cv::imread("Calibration_Grid.png",GRAY_SCALE);
 
-	cap >> a;
+    std::cout << img.type() << CV_8UC3;
+
+    if(img.empty())
+    {
+    	std::cerr << "Blad otwarcia";
+    	return -1;
+    }
 
 
-	cv::imshow("OKNO",a);
+    cv::VideoCapture cap(0);
 
-	cv::waitKey();
+    while(true)
+    {
+    cap >> img;
+
+    if(!img.empty())
+    {
+
+    	cv::cvtColor(img,img,CV_BGR2GRAY);
+    	findChessboard(img);
+    	cv::imshow("OKNO1",img);
+    	cv::waitKey(1);
+
+    }
+
+    }
+
+
+
+
+
+	//cv::imshow("OKNO",a);
+
+
 	return 0;
 }
