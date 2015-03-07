@@ -7,6 +7,7 @@
 
 
 
+#include "CAMERA_REGULATOR.H"
 
 #include <opencv/cv.h>
 #include <opencv/cv.h>
@@ -40,34 +41,39 @@ bool findChessboard(cv::Mat & img)
 int main()
 {
 
-    cv::Mat img = cv::imread("Calibration_Grid.png",GRAY_SCALE);
+	CAMERA_REGULATOR regulator;
 
-    std::cout << img.type() << CV_8UC3;
-
-    if(img.empty())
-    {
-    	std::cerr << "Blad otwarcia";
-    	return -1;
-    }
+	regulator.run();
 
 
-    cv::VideoCapture cap(0);
-
-    while(true)
-    {
-    cap >> img;
-
-    if(!img.empty())
-    {
-
-    	cv::cvtColor(img,img,CV_BGR2GRAY);
-    	findChessboard(img);
-    	cv::imshow("OKNO1",img);
-    	cv::waitKey(1);
-
-    }
-
-    }
+//    cv::Mat img = cv::imread("Calibration_Grid.png",GRAY_SCALE);
+//
+//    std::cout << img.type() << CV_8UC3;
+//
+//    if(img.empty())
+//    {
+//    	std::cerr << "Blad otwarcia";
+//    	return -1;
+//    }
+//
+//
+//    cv::VideoCapture cap(0);
+//
+//    while(true)
+//    {
+//    cap >> img;
+//
+//    if(!img.empty())
+//    {
+//
+//    	cv::cvtColor(img,img,CV_BGR2GRAY);
+//    	findChessboard(img);
+//    	cv::imshow("OKNO1",img);
+//    	cv::waitKey(1);
+//
+//    }
+//
+//    }
 
 
 
