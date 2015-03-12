@@ -22,6 +22,82 @@
 
 
 
+void CAMERA_REGULATOR::receiveFrame()
+{
+		cap >> lastFrame;
+		centerX = lastFrame.cols / 2;
+		centerY = lastFrame.rows / 2;
+}
+cv::Mat& CAMERA_REGULATOR::getLastFrame()
+{
+		receiveFrame();
+		return lastFrame;
+}
+bool CAMERA_REGULATOR::findChessboard() {
+	getLastFrame();
+	 this->BGR2GRAY(lastFrame,lastFrameGray);
+	 
+	bool founded = cv::findChessboardCorners(lastFrameGray, csSize,
+			foundedCorners,cv::CALIB_CB_ADAPTIVE_THRESH | cv::CALIB_CB_FAST_CHECK | cv::CALIB_CB_NORMALIZE_IMAGE);
+
+	return founded;
+}
+void CAMERA_REGULATOR::checkHorizontal() {
+		float dif1 = foundedCorners.ptr<cv::Vec2f>(1)->val[0]
+				- foundedCorners.ptr<cv::Vec2f>(0)->val[0];
+		float dif2 = foundedCorners.ptr<cv::Vec2f>(
+				foundedCorners.rows * foundedCorners.cols - 1)->val[0]
+				- foundedCorners.ptr<cv::Vec2f>(
+						foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+		if ((dif1) > (dif2)) {
+			//std::cout << "Prawa Bliżej";
+			cv::circle(lastFrame,
+					cv::Point((centerX - (dif1 - dif2) * 6), centerY), 50, a,
+					20);
+		} else {
+			//std::cout << "Lewa Bliżej";
+
+			cv::circle(lastFrame,
+					cv::Point((centerX + (dif2 - dif1) * 6), centerY), 50, a,
+					20);
+		}
+}
+void CAMERA_REGULATOR::checkVertical() {
+
+
+
+
+		cv::Scalar b(0,0,200);
+		//std::cout << foundedCorners;
+		float dif1 = foundedCorners.ptr<cv::Vec2f>(1)->val[1]
+				- foundedCorners.ptr<cv::Vec2f>(0)->val[1];
+
+		float dif2 = foundedCorners.ptr<cv::Vec2f>(
+				foundedCorners.rows * foundedCorners.cols - 2)->val[0]
+				- foundedCorners.ptr<cv::Vec2f>(
+						foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+
+		if ((dif1) > (dif2)) {
+			//Upper is closer
+			cv::circle(lastFrame,
+					cv::Point(centerX, (centerY - (dif1 - dif2) * 2)), 30, b,
+					20);
+		} else {
+			//Bottom is closer
+
+			cv::circle(lastFrame,
+					cv::Point(centerX, (centerY + (dif2 - dif1) * 2)), 30, b,
+					20);
+		}
+	}
+void CAMERA_REGULATOR::BGR2GRAY(cv::Mat & in,cv::Mat & out)
+{
+		cv::cvtColor(in,out,CV_BGR2GRAY);
+}
+
+
+
+
 bool findChessboard(cv::Mat & img)
 {
 
@@ -30,8 +106,8 @@ bool findChessboard(cv::Mat & img)
 
     bool an=cv::findChessboardCorners(img,csSize,corners,1);
 
-    if(an)
-    cv::drawChessboardCorners(img, csSize, corners, 1);;
+    //if(an)
+    //cv::drawChessboardCorners(img, csSize, corners, 1);
 
 
 

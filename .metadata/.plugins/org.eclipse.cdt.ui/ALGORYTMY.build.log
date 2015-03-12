@@ -1,4 +1,4 @@
-15:45:01 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+16:07:31 **** Incremental Build of configuration Debug for project ALGORYTMY ****
 make all 
 Building file: ../CAMERA_REGULATOR.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopen
 Finished building target: ALGORYTMY
  
 
-15:45:03 Build Finished (took 1s.839ms)
+16:07:33 Build Finished (took 1s.981ms)
 

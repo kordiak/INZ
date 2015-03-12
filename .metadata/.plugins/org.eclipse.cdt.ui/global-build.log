@@ -2432,3 +2432,2702 @@ Invoking: GCC C++ Linker
 g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
 Finished building target: ALGORYTMY
  
+10:45:38 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+11:00:13 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+../CAMERA_REGULATOR.cpp: In function ‘bool findChessboard(cv::Mat&)’:
+../CAMERA_REGULATOR.cpp:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:00:19 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+11:00:58 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:01:40 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:03:23 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:04:42 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::checkHorizontal()’:
+../CAMERA_REGULATOR.H:69:60: error: invalid operands of types ‘float [2]’ and ‘float’ to binary ‘operator-’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+11:05:41 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::checkHorizontal()’:
+../CAMERA_REGULATOR.H:68:5: error: no match for ‘operator-’ (operand types are ‘cv::Vec<float, 2>’ and ‘float’)
+     - foundedCorners.ptr<cv::Vec2f>(
+     ^
+../CAMERA_REGULATOR.H:68:5: note: candidates are:
+In file included from /usr/local/include/opencv/cv.h:63:0,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/core_c.h:3125:41: note: template<class _Tp> ptrdiff_t cv::operator-(const cv::SeqIterator<_Tp>&, const cv::SeqIterator<_Tp>&)
+ template<typename _Tp> inline ptrdiff_t operator - (const SeqIterator<_Tp>& a,
+                                         ^
+/usr/local/include/opencv2/core/core_c.h:3125:41: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::SeqIterator<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:58:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/persistence.hpp:1150:11: note: ptrdiff_t cv::operator-(const cv::FileNodeIterator&, const cv::FileNodeIterator&)
+ ptrdiff_t operator - (const FileNodeIterator& it1, const FileNodeIterator& it2)
+           ^
+/usr/local/include/opencv2/core/persistence.hpp:1150:11: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::FileNodeIterator&’
+In file included from /usr/local/include/opencv2/core/mat.hpp:3389:0,
+                 from /usr/local/include/opencv2/core.hpp:57,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.inl.hpp:2584:19: note: template<class _Tp> cv::MatIterator_<_Tp> cv::operator-(const cv::MatIterator_<_Tp>&, ptrdiff_t)
+ MatIterator_<_Tp> operator - (const MatIterator_<_Tp>& a, ptrdiff_t ofs)
+                   ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2584:19: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::MatIterator_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core/mat.hpp:3389:0,
+                 from /usr/local/include/opencv2/core.hpp:57,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.inl.hpp:2447:24: note: template<class _Tp> cv::MatConstIterator_<_Tp> cv::operator-(const cv::MatConstIterator_<_Tp>&, ptrdiff_t)
+ MatConstIterator_<_Tp> operator - (const MatConstIterator_<_Tp>& a, ptrdiff_t ofs)
+                        ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2447:24: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::MatConstIterator_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core/mat.hpp:3389:0,
+                 from /usr/local/include/opencv2/core.hpp:57,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.inl.hpp:2299:18: note: cv::MatConstIterator cv::operator-(const cv::MatConstIterator&, ptrdiff_t)
+ MatConstIterator operator - (const MatConstIterator& a, ptrdiff_t ofs)
+                  ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2299:18: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::MatConstIterator&’
+/usr/local/include/opencv2/core/mat.inl.hpp:2274:11: note: ptrdiff_t cv::operator-(const cv::MatConstIterator&, const cv::MatConstIterator&)
+ ptrdiff_t operator - (const MatConstIterator& b, const MatConstIterator& a)
+           ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2274:11: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::MatConstIterator&’
+In file included from /usr/local/include/opencv2/core.hpp:57:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.hpp:3301:20: note: cv::MatExpr cv::operator-(const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator - (const MatExpr& e);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3301:20: note:   candidate expects 1 argument, 2 provided
+/usr/local/include/opencv2/core/mat.hpp:3300:20: note: cv::MatExpr cv::operator-(const cv::Mat&)
+ CV_EXPORTS MatExpr operator - (const Mat& m);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3300:20: note:   candidate expects 1 argument, 2 provided
+/usr/local/include/opencv2/core/mat.hpp:3298:20: note: cv::MatExpr cv::operator-(const cv::MatExpr&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator - (const MatExpr& e1, const MatExpr& e2);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3298:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::MatExpr&’
+/usr/local/include/opencv2/core/mat.hpp:3297:20: note: cv::MatExpr cv::operator-(const Scalar&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator - (const Scalar& s, const MatExpr& e);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3297:20: note:   no known conversion for argument 2 from ‘float’ to ‘const cv::MatExpr&’
+/usr/local/include/opencv2/core/mat.hpp:3296:20: note: cv::MatExpr cv::operator-(const cv::MatExpr&, const Scalar&)
+ CV_EXPORTS MatExpr operator - (const MatExpr& e, const Scalar& s);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3296:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::MatExpr&’
+/usr/local/include/opencv2/core/mat.hpp:3295:20: note: cv::MatExpr cv::operator-(const cv::Mat&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator - (const Mat& m, const MatExpr& e);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3295:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::Mat&’
+/usr/local/include/opencv2/core/mat.hpp:3294:20: note: cv::MatExpr cv::operator-(const cv::MatExpr&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator - (const MatExpr& e, const Mat& m);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3294:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::MatExpr&’
+/usr/local/include/opencv2/core/mat.hpp:3293:20: note: cv::MatExpr cv::operator-(const Scalar&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator - (const Scalar& s, const Mat& a);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3293:20: note:   no known conversion for argument 2 from ‘float’ to ‘const cv::Mat&’
+/usr/local/include/opencv2/core/mat.hpp:3292:20: note: cv::MatExpr cv::operator-(const cv::Mat&, const Scalar&)
+ CV_EXPORTS MatExpr operator - (const Mat& a, const Scalar& s);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3292:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::Mat&’
+/usr/local/include/opencv2/core/mat.hpp:3291:20: note: cv::MatExpr cv::operator-(const cv::Mat&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator - (const Mat& a, const Mat& b);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3291:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::Mat&’
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:2085:14: note: template<class _Tp> cv::Scalar_<_Tp> cv::operator-(const cv::Scalar_<_Tp>&)
+ Scalar_<_Tp> operator - (const Scalar_<_Tp>& a)
+              ^
+/usr/local/include/opencv2/core/types.hpp:2085:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Scalar_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:2061:14: note: template<class _Tp> cv::Scalar_<_Tp> cv::operator-(const cv::Scalar_<_Tp>&, const cv::Scalar_<_Tp>&)
+ Scalar_<_Tp> operator - (const Scalar_<_Tp>& a, const Scalar_<_Tp>& b)
+              ^
+/usr/local/include/opencv2/core/types.hpp:2061:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Scalar_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1924:7: note: cv::Range cv::operator-(const cv::Range&, int)
+ Range operator - (const Range& r1, int delta)
+       ^
+/usr/local/include/opencv2/core/types.hpp:1924:7: note:   no known conversion for argument 1 from ‘cv::Vec<float, 2>’ to ‘const cv::Range&’
+/usr/local/include/opencv2/core/types.hpp:1810:12: note: template<class _Tp> cv::Rect_<_Tp> cv::operator-(const cv::Rect_<_Tp>&, const cv::Point_<_Tp>&)
+ Rect_<_Tp> operator - (const Rect_<_Tp>& a, const Point_<_Tp>& b)
+            ^
+/usr/local/include/opencv2/core/types.hpp:1810:12: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Rect_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1638:12: note: template<class _Tp> cv::Size_<_Tp> cv::operator-(const cv::Size_<_Tp>&, const cv::Size_<_Tp>&)
+ Size_<_Tp> operator - (const Size_<_Tp>& a, const Size_<_Tp>& b)
+            ^
+/usr/local/include/opencv2/core/types.hpp:1638:12: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Size_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1464:14: note: template<class _Tp> cv::Point3_<_Tp> cv::operator-(const cv::Point3_<_Tp>&)
+ Point3_<_Tp> operator - (const Point3_<_Tp>& a)
+              ^
+/usr/local/include/opencv2/core/types.hpp:1464:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Point3_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1458:14: note: template<class _Tp> cv::Point3_<_Tp> cv::operator-(const cv::Point3_<_Tp>&, const cv::Point3_<_Tp>&)
+ Point3_<_Tp> operator - (const Point3_<_Tp>& a, const Point3_<_Tp>& b)
+              ^
+/usr/local/include/opencv2/core/types.hpp:1458:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Point3_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1220:13: note: template<class _Tp> cv::Point_<_Tp> cv::operator-(const cv::Point_<_Tp>&)
+ Point_<_Tp> operator - (const Point_<_Tp>& a)
+             ^
+/usr/local/include/opencv2/core/types.hpp:1220:13: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Point_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1214:13: note: template<class _Tp> cv::Point_<_Tp> cv::operator-(const cv::Point_<_Tp>&, const cv::Point_<_Tp>&)
+ Point_<_Tp> operator - (const Point_<_Tp>& a, const Point_<_Tp>& b)
+             ^
+/usr/local/include/opencv2/core/types.hpp:1214:13: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Point_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:994:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator-(_Tp, const cv::Complex<_Tp>&)
+ Complex<_Tp> operator - (_Tp b, const Complex<_Tp>& a)
+              ^
+/usr/local/include/opencv2/core/types.hpp:994:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   mismatched types ‘const cv::Complex<_Tp>’ and ‘float’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:984:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator-(const cv::Complex<_Tp>&, _Tp)
+ Complex<_Tp> operator - (const Complex<_Tp>& a, _Tp b)
+              ^
+/usr/local/include/opencv2/core/types.hpp:984:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Complex<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:954:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator-(const cv::Complex<_Tp>&)
+ Complex<_Tp> operator - (const Complex<_Tp>& a)
+              ^
+/usr/local/include/opencv2/core/types.hpp:954:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Complex<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:941:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator-(const cv::Complex<_Tp>&, const cv::Complex<_Tp>&)
+ Complex<_Tp> operator - (const Complex<_Tp>& a, const Complex<_Tp>& b)
+              ^
+/usr/local/include/opencv2/core/types.hpp:941:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   ‘cv::Vec<float, 2>’ is not derived from ‘const cv::Complex<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1351:14: note: template<class _Tp, int cn> cv::Vec<_Tp, m> cv::operator-(const cv::Vec<_Tp, m>&)
+ Vec<_Tp, cn> operator - (const Vec<_Tp, cn>& a)
+              ^
+/usr/local/include/opencv2/core/matx.hpp:1351:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   candidate expects 1 argument, 2 provided
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1240:14: note: template<class _Tp, int cn> cv::Vec<_Tp, m> cv::operator-(const cv::Vec<_Tp, m>&, const cv::Vec<_Tp, m>&)
+ Vec<_Tp, cn> operator - (const Vec<_Tp, cn>& a, const Vec<_Tp, cn>& b)
+              ^
+/usr/local/include/opencv2/core/matx.hpp:1240:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   mismatched types ‘const cv::Vec<_Tp, m>’ and ‘float’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1178:17: note: template<class _Tp, int m, int n> cv::Matx<_Tp, m, n> cv::operator-(const cv::Matx<_Tp, m, n>&)
+ Matx<_Tp, m, n> operator - (const Matx<_Tp, m, n>& a)
+                 ^
+/usr/local/include/opencv2/core/matx.hpp:1178:17: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   candidate expects 1 argument, 2 provided
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1112:17: note: template<class _Tp, int m, int n> cv::Matx<_Tp, m, n> cv::operator-(const cv::Matx<_Tp, m, n>&, const cv::Matx<_Tp, m, n>&)
+ Matx<_Tp, m, n> operator - (const Matx<_Tp, m, n>& a, const Matx<_Tp, m, n>& b)
+                 ^
+/usr/local/include/opencv2/core/matx.hpp:1112:17: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:69:60: note:   mismatched types ‘const cv::Matx<_Tp, m, n>’ and ‘float’
+       foundedCorners.rows * foundedCorners.cols - 2)->val[0];
+                                                            ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+11:06:16 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::checkVertical()’:
+../CAMERA_REGULATOR.H:96:5: error: no match for ‘operator-’ (operand types are ‘cv::Vec<float, 3>’ and ‘float’)
+     - foundedCorners.ptr<cv::Vec3f>(
+     ^
+../CAMERA_REGULATOR.H:96:5: note: candidates are:
+In file included from /usr/local/include/opencv/cv.h:63:0,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/core_c.h:3125:41: note: template<class _Tp> ptrdiff_t cv::operator-(const cv::SeqIterator<_Tp>&, const cv::SeqIterator<_Tp>&)
+ template<typename _Tp> inline ptrdiff_t operator - (const SeqIterator<_Tp>& a,
+                                         ^
+/usr/local/include/opencv2/core/core_c.h:3125:41: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::SeqIterator<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:58:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/persistence.hpp:1150:11: note: ptrdiff_t cv::operator-(const cv::FileNodeIterator&, const cv::FileNodeIterator&)
+ ptrdiff_t operator - (const FileNodeIterator& it1, const FileNodeIterator& it2)
+           ^
+/usr/local/include/opencv2/core/persistence.hpp:1150:11: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::FileNodeIterator&’
+In file included from /usr/local/include/opencv2/core/mat.hpp:3389:0,
+                 from /usr/local/include/opencv2/core.hpp:57,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.inl.hpp:2584:19: note: template<class _Tp> cv::MatIterator_<_Tp> cv::operator-(const cv::MatIterator_<_Tp>&, ptrdiff_t)
+ MatIterator_<_Tp> operator - (const MatIterator_<_Tp>& a, ptrdiff_t ofs)
+                   ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2584:19: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::MatIterator_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core/mat.hpp:3389:0,
+                 from /usr/local/include/opencv2/core.hpp:57,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.inl.hpp:2447:24: note: template<class _Tp> cv::MatConstIterator_<_Tp> cv::operator-(const cv::MatConstIterator_<_Tp>&, ptrdiff_t)
+ MatConstIterator_<_Tp> operator - (const MatConstIterator_<_Tp>& a, ptrdiff_t ofs)
+                        ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2447:24: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::MatConstIterator_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core/mat.hpp:3389:0,
+                 from /usr/local/include/opencv2/core.hpp:57,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.inl.hpp:2299:18: note: cv::MatConstIterator cv::operator-(const cv::MatConstIterator&, ptrdiff_t)
+ MatConstIterator operator - (const MatConstIterator& a, ptrdiff_t ofs)
+                  ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2299:18: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::MatConstIterator&’
+/usr/local/include/opencv2/core/mat.inl.hpp:2274:11: note: ptrdiff_t cv::operator-(const cv::MatConstIterator&, const cv::MatConstIterator&)
+ ptrdiff_t operator - (const MatConstIterator& b, const MatConstIterator& a)
+           ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2274:11: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::MatConstIterator&’
+In file included from /usr/local/include/opencv2/core.hpp:57:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.hpp:3301:20: note: cv::MatExpr cv::operator-(const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator - (const MatExpr& e);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3301:20: note:   candidate expects 1 argument, 2 provided
+/usr/local/include/opencv2/core/mat.hpp:3300:20: note: cv::MatExpr cv::operator-(const cv::Mat&)
+ CV_EXPORTS MatExpr operator - (const Mat& m);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3300:20: note:   candidate expects 1 argument, 2 provided
+/usr/local/include/opencv2/core/mat.hpp:3298:20: note: cv::MatExpr cv::operator-(const cv::MatExpr&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator - (const MatExpr& e1, const MatExpr& e2);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3298:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::MatExpr&’
+/usr/local/include/opencv2/core/mat.hpp:3297:20: note: cv::MatExpr cv::operator-(const Scalar&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator - (const Scalar& s, const MatExpr& e);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3297:20: note:   no known conversion for argument 2 from ‘float’ to ‘const cv::MatExpr&’
+/usr/local/include/opencv2/core/mat.hpp:3296:20: note: cv::MatExpr cv::operator-(const cv::MatExpr&, const Scalar&)
+ CV_EXPORTS MatExpr operator - (const MatExpr& e, const Scalar& s);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3296:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::MatExpr&’
+/usr/local/include/opencv2/core/mat.hpp:3295:20: note: cv::MatExpr cv::operator-(const cv::Mat&, const cv::MatExpr&)
+ CV_EXPORTS MatExpr operator - (const Mat& m, const MatExpr& e);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3295:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::Mat&’
+/usr/local/include/opencv2/core/mat.hpp:3294:20: note: cv::MatExpr cv::operator-(const cv::MatExpr&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator - (const MatExpr& e, const Mat& m);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3294:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::MatExpr&’
+/usr/local/include/opencv2/core/mat.hpp:3293:20: note: cv::MatExpr cv::operator-(const Scalar&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator - (const Scalar& s, const Mat& a);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3293:20: note:   no known conversion for argument 2 from ‘float’ to ‘const cv::Mat&’
+/usr/local/include/opencv2/core/mat.hpp:3292:20: note: cv::MatExpr cv::operator-(const cv::Mat&, const Scalar&)
+ CV_EXPORTS MatExpr operator - (const Mat& a, const Scalar& s);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3292:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::Mat&’
+/usr/local/include/opencv2/core/mat.hpp:3291:20: note: cv::MatExpr cv::operator-(const cv::Mat&, const cv::Mat&)
+ CV_EXPORTS MatExpr operator - (const Mat& a, const Mat& b);
+                    ^
+/usr/local/include/opencv2/core/mat.hpp:3291:20: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::Mat&’
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:2085:14: note: template<class _Tp> cv::Scalar_<_Tp> cv::operator-(const cv::Scalar_<_Tp>&)
+ Scalar_<_Tp> operator - (const Scalar_<_Tp>& a)
+              ^
+/usr/local/include/opencv2/core/types.hpp:2085:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Scalar_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:2061:14: note: template<class _Tp> cv::Scalar_<_Tp> cv::operator-(const cv::Scalar_<_Tp>&, const cv::Scalar_<_Tp>&)
+ Scalar_<_Tp> operator - (const Scalar_<_Tp>& a, const Scalar_<_Tp>& b)
+              ^
+/usr/local/include/opencv2/core/types.hpp:2061:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Scalar_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1924:7: note: cv::Range cv::operator-(const cv::Range&, int)
+ Range operator - (const Range& r1, int delta)
+       ^
+/usr/local/include/opencv2/core/types.hpp:1924:7: note:   no known conversion for argument 1 from ‘cv::Vec<float, 3>’ to ‘const cv::Range&’
+/usr/local/include/opencv2/core/types.hpp:1810:12: note: template<class _Tp> cv::Rect_<_Tp> cv::operator-(const cv::Rect_<_Tp>&, const cv::Point_<_Tp>&)
+ Rect_<_Tp> operator - (const Rect_<_Tp>& a, const Point_<_Tp>& b)
+            ^
+/usr/local/include/opencv2/core/types.hpp:1810:12: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Rect_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1638:12: note: template<class _Tp> cv::Size_<_Tp> cv::operator-(const cv::Size_<_Tp>&, const cv::Size_<_Tp>&)
+ Size_<_Tp> operator - (const Size_<_Tp>& a, const Size_<_Tp>& b)
+            ^
+/usr/local/include/opencv2/core/types.hpp:1638:12: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Size_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1464:14: note: template<class _Tp> cv::Point3_<_Tp> cv::operator-(const cv::Point3_<_Tp>&)
+ Point3_<_Tp> operator - (const Point3_<_Tp>& a)
+              ^
+/usr/local/include/opencv2/core/types.hpp:1464:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Point3_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1458:14: note: template<class _Tp> cv::Point3_<_Tp> cv::operator-(const cv::Point3_<_Tp>&, const cv::Point3_<_Tp>&)
+ Point3_<_Tp> operator - (const Point3_<_Tp>& a, const Point3_<_Tp>& b)
+              ^
+/usr/local/include/opencv2/core/types.hpp:1458:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Point3_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1220:13: note: template<class _Tp> cv::Point_<_Tp> cv::operator-(const cv::Point_<_Tp>&)
+ Point_<_Tp> operator - (const Point_<_Tp>& a)
+             ^
+/usr/local/include/opencv2/core/types.hpp:1220:13: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Point_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:1214:13: note: template<class _Tp> cv::Point_<_Tp> cv::operator-(const cv::Point_<_Tp>&, const cv::Point_<_Tp>&)
+ Point_<_Tp> operator - (const Point_<_Tp>& a, const Point_<_Tp>& b)
+             ^
+/usr/local/include/opencv2/core/types.hpp:1214:13: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Point_<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:994:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator-(_Tp, const cv::Complex<_Tp>&)
+ Complex<_Tp> operator - (_Tp b, const Complex<_Tp>& a)
+              ^
+/usr/local/include/opencv2/core/types.hpp:994:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   mismatched types ‘const cv::Complex<_Tp>’ and ‘float’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:984:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator-(const cv::Complex<_Tp>&, _Tp)
+ Complex<_Tp> operator - (const Complex<_Tp>& a, _Tp b)
+              ^
+/usr/local/include/opencv2/core/types.hpp:984:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Complex<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:954:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator-(const cv::Complex<_Tp>&)
+ Complex<_Tp> operator - (const Complex<_Tp>& a)
+              ^
+/usr/local/include/opencv2/core/types.hpp:954:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Complex<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:56:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/types.hpp:941:14: note: template<class _Tp> cv::Complex<_Tp> cv::operator-(const cv::Complex<_Tp>&, const cv::Complex<_Tp>&)
+ Complex<_Tp> operator - (const Complex<_Tp>& a, const Complex<_Tp>& b)
+              ^
+/usr/local/include/opencv2/core/types.hpp:941:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   ‘cv::Vec<float, 3>’ is not derived from ‘const cv::Complex<_Tp>’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1351:14: note: template<class _Tp, int cn> cv::Vec<_Tp, m> cv::operator-(const cv::Vec<_Tp, m>&)
+ Vec<_Tp, cn> operator - (const Vec<_Tp, cn>& a)
+              ^
+/usr/local/include/opencv2/core/matx.hpp:1351:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   candidate expects 1 argument, 2 provided
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1240:14: note: template<class _Tp, int cn> cv::Vec<_Tp, m> cv::operator-(const cv::Vec<_Tp, m>&, const cv::Vec<_Tp, m>&)
+ Vec<_Tp, cn> operator - (const Vec<_Tp, cn>& a, const Vec<_Tp, cn>& b)
+              ^
+/usr/local/include/opencv2/core/matx.hpp:1240:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   mismatched types ‘const cv::Vec<_Tp, m>’ and ‘float’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1178:17: note: template<class _Tp, int m, int n> cv::Matx<_Tp, m, n> cv::operator-(const cv::Matx<_Tp, m, n>&)
+ Matx<_Tp, m, n> operator - (const Matx<_Tp, m, n>& a)
+                 ^
+/usr/local/include/opencv2/core/matx.hpp:1178:17: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   candidate expects 1 argument, 2 provided
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1112:17: note: template<class _Tp, int m, int n> cv::Matx<_Tp, m, n> cv::operator-(const cv::Matx<_Tp, m, n>&, const cv::Matx<_Tp, m, n>&)
+ Matx<_Tp, m, n> operator - (const Matx<_Tp, m, n>& a, const Matx<_Tp, m, n>& b)
+                 ^
+/usr/local/include/opencv2/core/matx.hpp:1112:17: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:97:60: note:   mismatched types ‘const cv::Matx<_Tp, m, n>’ and ‘float’
+       foundedCorners.rows * foundedCorners.cols - 3)->val[1];
+                                                            ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+11:06:32 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:07:24 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:08:38 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:09:37 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:28:58 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::checkHorizontal()’:
+../CAMERA_REGULATOR.H:87:13: error: no match for ‘operator<<’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘<unresolved overloaded function type>’)
+   std::cout << foundedCorners.type << " Type of corners";
+             ^
+../CAMERA_REGULATOR.H:87:13: note: candidates are:
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:108:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+/usr/include/c++/4.8/ostream:108:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}’
+/usr/include/c++/4.8/ostream:117:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/include/c++/4.8/ostream:117:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}’
+/usr/include/c++/4.8/ostream:127:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/include/c++/4.8/ostream:127:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘std::ios_base& (*)(std::ios_base&)’
+/usr/include/c++/4.8/ostream:166:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/include/c++/4.8/ostream:166:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘long int’
+/usr/include/c++/4.8/ostream:170:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/include/c++/4.8/ostream:170:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘long unsigned int’
+/usr/include/c++/4.8/ostream:174:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/include/c++/4.8/ostream:174:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘bool’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:91:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘short int’
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:181:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/include/c++/4.8/ostream:181:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘short unsigned int’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:105:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘int’
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:192:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/include/c++/4.8/ostream:192:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘unsigned int’
+/usr/include/c++/4.8/ostream:201:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/include/c++/4.8/ostream:201:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘long long int’
+/usr/include/c++/4.8/ostream:205:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/include/c++/4.8/ostream:205:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘long long unsigned int’
+/usr/include/c++/4.8/ostream:220:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/include/c++/4.8/ostream:220:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘double’
+/usr/include/c++/4.8/ostream:224:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/include/c++/4.8/ostream:224:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘float’
+/usr/include/c++/4.8/ostream:232:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/include/c++/4.8/ostream:232:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘long double’
+/usr/include/c++/4.8/ostream:245:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/include/c++/4.8/ostream:245:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘const void*’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:119:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}’
+In file included from /usr/local/include/opencv2/core/cvstd.inl.hpp:48:0,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/complex:524:5: note: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+     ^
+/usr/include/c++/4.8/complex:524:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const std::complex<_Tp>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:548:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/include/c++/4.8/ostream:548:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’ (type ‘<unresolved overloaded function type>’) to type ‘const unsigned char*’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:543:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/include/c++/4.8/ostream:543:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’ (type ‘<unresolved overloaded function type>’) to type ‘const signed char*’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:530:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/ostream:530:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’ (type ‘<unresolved overloaded function type>’) to type ‘const char*’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’ (type ‘<unresolved overloaded function type>’) to type ‘const char*’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:513:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/include/c++/4.8/ostream:513:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   mismatched types ‘const _CharT*’ and ‘int (cv::Mat::*)()const’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:493:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/include/c++/4.8/ostream:493:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’ (type ‘<unresolved overloaded function type>’) to type ‘unsigned char’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:488:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/include/c++/4.8/ostream:488:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’ (type ‘<unresolved overloaded function type>’) to type ‘signed char’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:482:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:482:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’ (type ‘<unresolved overloaded function type>’) to type ‘char’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:476:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:476:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’ (type ‘<unresolved overloaded function type>’) to type ‘char’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:471:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/include/c++/4.8/ostream:471:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/local/include/opencv2/core/cvstd.hpp:58,
+                 from /usr/local/include/opencv2/core/base.hpp:54,
+                 from /usr/local/include/opencv2/core.hpp:52,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:256:15: note: template<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Rect_<_Tp>&)
+ std::ostream& operator << (std::ostream& out, const Rect_<_Tp>& rect)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:256:15: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const cv::Rect_<_Tp>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:250:15: note: template<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Size_<_Tp>&)
+ std::ostream& operator << (std::ostream& out, const Size_<_Tp>& size)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:250:15: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const cv::Size_<_Tp>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:221:15: note: template<class _Tp, int n> std::ostream& cv::operator<<(std::ostream&, const cv::Vec<_Tp, m>&)
+ std::ostream& operator << (std::ostream& out, const Vec<_Tp, n>& vec)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:221:15: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const cv::Vec<_Tp, m>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:214:15: note: template<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Point3_<_Tp>&)
+ std::ostream& operator << (std::ostream& out, const Point3_<_Tp>& p)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:214:15: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const cv::Point3_<_Tp>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:207:15: note: template<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Point_<_Tp>&)
+ std::ostream& operator << (std::ostream& out, const Point_<_Tp>& p)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:207:15: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const cv::Point_<_Tp>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:201:15: note: template<class _Tp, int m, int n> std::ostream& cv::operator<<(std::ostream&, const cv::Matx<_Tp, m, n>&)
+ std::ostream& operator << (std::ostream& out, const Matx<_Tp, m, n>& matx)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:201:15: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const cv::Matx<_Tp, m, n>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:194:15: note: template<class _Tp> std::ostream& cv::operator<<(std::ostream&, const std::vector<cv::Point3_<_Tp> >&)
+ std::ostream& operator << (std::ostream& out, const std::vector<Point3_<_Tp> >& vec)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:194:15: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const std::vector<cv::Point3_<_Tp> >’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:187:15: note: template<class _Tp> std::ostream& cv::operator<<(std::ostream&, const std::vector<cv::Point_<_Tp> >&)
+ std::ostream& operator << (std::ostream& out, const std::vector<Point_<_Tp> >& vec)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:187:15: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘int (cv::Mat::*)()const’ is not derived from ‘const std::vector<cv::Point_<_Tp> >’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H:87:31: note:   could not resolve address from overloaded function ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::foundedCorners.cv::Mat::type’
+In file included from /usr/local/include/opencv2/core.hpp:3207:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/cvstd.inl.hpp:181:15: note: std::ostream& cv::operator<<(std::ostream&, const cv::Mat&)
+ std::ostream& operator << (std::ostream& out, const Mat& mtx)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:181:15: note:   no known conversion for argument 2 from ‘<unresolved overloaded function type>’ to ‘const cv::Mat&’
+/usr/local/include/opencv2/core/cvstd.inl.hpp:172:15: note: std::ostream& cv::operator<<(std::ostream&, cv::Ptr<cv::Formatted>)
+ std::ostream& operator << (std::ostream& out, Ptr<Formatted> fmtd)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:172:15: note:   no known conversion for argument 2 from ‘<unresolved overloaded function type>’ to ‘cv::Ptr<cv::Formatted>’
+/usr/local/include/opencv2/core/cvstd.inl.hpp:166:15: note: std::ostream& cv::operator<<(std::ostream&, const cv::String&)
+ std::ostream& operator << (std::ostream& os, const String& str)
+               ^
+/usr/local/include/opencv2/core/cvstd.inl.hpp:166:15: note:   no known conversion for argument 2 from ‘<unresolved overloaded function type>’ to ‘const cv::String&’
+In file included from /usr/local/include/opencv2/core.hpp:58:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/persistence.hpp:1080:14: note: cv::FileStorage& cv::operator<<(cv::FileStorage&, char*)
+ FileStorage& operator << (FileStorage& fs, char* value)
+              ^
+/usr/local/include/opencv2/core/persistence.hpp:1080:14: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘cv::FileStorage&’
+/usr/local/include/opencv2/core/persistence.hpp:1072:14: note: cv::FileStorage& cv::operator<<(cv::FileStorage&, const char*)
+ FileStorage& operator << (FileStorage& fs, const char* str)
+              ^
+/usr/local/include/opencv2/core/persistence.hpp:1072:14: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘cv::FileStorage&’
+/usr/local/include/opencv2/core/persistence.hpp:1057:14: note: template<class _Tp> cv::FileStorage& cv::operator<<(cv::FileStorage&, const _Tp&)
+ FileStorage& operator << (FileStorage& fs, const _Tp& value)
+              ^
+/usr/local/include/opencv2/core/persistence.hpp:1057:14: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘cv::FileStorage&’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/local/include/opencv2/core.hpp:58:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/persistence.hpp:739:25: note: cv::FileStorage& cv::operator<<(cv::FileStorage&, const cv::String&)
+ CV_EXPORTS FileStorage& operator << (FileStorage& fs, const String& str);
+                         ^
+/usr/local/include/opencv2/core/persistence.hpp:739:25: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘cv::FileStorage&’
+In file included from /usr/local/include/opencv2/core/mat.hpp:3389:0,
+                 from /usr/local/include/opencv2/core.hpp:57,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/mat.inl.hpp:2843:27: note: template<class _Tp, class T2> cv::MatCommaInitializer_<_Tp> cv::operator<<(const cv::Mat_<_Tp>&, T2)
+ MatCommaInitializer_<_Tp> operator << (const Mat_<_Tp>& m, T2 val)
+                           ^
+/usr/local/include/opencv2/core/mat.inl.hpp:2843:27: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const cv::Mat_<_Tp>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:1056:30: note: template<class _Tp, class _T2, int cn> cv::VecCommaInitializer<_Tp, cn> cv::operator<<(const cv::Vec<_Tp, n>&, _T2)
+ VecCommaInitializer<_Tp, cn> operator << (const Vec<_Tp, cn>& vec, _T2 val)
+                              ^
+/usr/local/include/opencv2/core/matx.hpp:1056:30: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const cv::Vec<_Tp, n>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+In file included from /usr/local/include/opencv2/core.hpp:55:0,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/local/include/opencv2/core/matx.hpp:851:33: note: template<class _Tp, class _T2, int m, int n> cv::MatxCommaInitializer<_Tp, m, n> cv::operator<<(const cv::Matx<_Tp, m, n>&, _T2)
+ MatxCommaInitializer<_Tp, m, n> operator << (const Matx<_Tp, m, n>& mtx, _T2 val)
+                                 ^
+/usr/local/include/opencv2/core/matx.hpp:851:33: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:87:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const cv::Matx<_Tp, m, n>’
+   std::cout << foundedCorners.type << " Type of corners";
+                               ^
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:122:15: error: missing template arguments before ‘a’
+  {cv::Point3_ a;
+               ^
+../CAMERA_REGULATOR.H:122:15: error: expected ‘;’ before ‘a’
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+11:29:13 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:122:15: error: missing template arguments before ‘a’
+  {cv::Point3_ a;
+               ^
+../CAMERA_REGULATOR.H:122:15: error: expected ‘;’ before ‘a’
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+11:29:27 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:33:33 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::checkHorizontal()’:
+../CAMERA_REGULATOR.H:89:23: error: must #include <typeinfo> before using typeid
+   std::cout << typeid(a);
+                       ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+11:33:51 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::checkHorizontal()’:
+../CAMERA_REGULATOR.H:90:13: error: no match for ‘operator<<’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘const std::type_info’)
+   std::cout << typeid(a);
+             ^
+../CAMERA_REGULATOR.H:90:13: note: candidates are:
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:108:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+/usr/include/c++/4.8/ostream:108:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}’
+/usr/include/c++/4.8/ostream:117:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/include/c++/4.8/ostream:117:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}’
+/usr/include/c++/4.8/ostream:127:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/include/c++/4.8/ostream:127:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘std::ios_base& (*)(std::ios_base&)’
+/usr/include/c++/4.8/ostream:166:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/include/c++/4.8/ostream:166:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘long int’
+/usr/include/c++/4.8/ostream:170:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/include/c++/4.8/ostream:170:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘long unsigned int’
+/usr/include/c++/4.8/ostream:174:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/include/c++/4.8/ostream:174:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘bool’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:91:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘short int’
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:181:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/include/c++/4.8/ostream:181:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘short unsigned int’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:105:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘int’
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:192:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/include/c++/4.8/ostream:192:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘unsigned int’
+/usr/include/c++/4.8/ostream:201:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/include/c++/4.8/ostream:201:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘long long int’
+/usr/include/c++/4.8/ostream:205:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/include/c++/4.8/ostream:205:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘long long unsigned int’
+/usr/include/c++/4.8/ostream:220:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/include/c++/4.8/ostream:220:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘double’
+/usr/include/c++/4.8/ostream:224:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/include/c++/4.8/ostream:224:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘float’
+/usr/include/c++/4.8/ostream:232:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/include/c++/4.8/ostream:232:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘long double’
+/usr/include/c++/4.8/ostream:245:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/include/c++/4.8/ostream:245:7: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘const void*’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:119:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from ‘const std::type_info’ to ‘std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}’
+In file included from /usr/local/include/opencv2/core/cvstd.inl.hpp:48:0,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/complex:524:5: note: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+     ^
+/usr/include/c++/4.8/complex:524:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   ‘const std::type_info’ is not derived from ‘const std::complex<_Tp>’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:548:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/include/c++/4.8/ostream:548:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   cannot convert ‘*(const std::type_info*)(& _ZTIi)’ (type ‘const std::type_info’) to type ‘const unsigned char*’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:543:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/include/c++/4.8/ostream:543:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   cannot convert ‘*(const std::type_info*)(& _ZTIi)’ (type ‘const std::type_info’) to type ‘const signed char*’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:530:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/ostream:530:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   cannot convert ‘*(const std::type_info*)(& _ZTIi)’ (type ‘const std::type_info’) to type ‘const char*’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   cannot convert ‘*(const std::type_info*)(& _ZTIi)’ (type ‘const std::type_info’) to type ‘const char*’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:513:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/include/c++/4.8/ostream:513:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   mismatched types ‘const _CharT*’ and ‘std::type_info’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:493:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/include/c++/4.8/ostream:493:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   cannot convert ‘*(const std::type_info*)(& _ZTIi)’ (type ‘const std::type_info’) to type ‘unsigned char’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:488:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/include/c++/4.8/ostream:488:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   cannot convert ‘*(const std::type_info*)(& _ZTIi)’ (type ‘const std::type_info’) to type ‘signed char’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:482:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:482:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   cannot convert ‘*(const std::type_info*)(& _ZTIi)’ (type ‘const std::type_info’) to type ‘char’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:476:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:476:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   cannot convert ‘*(const std::type_info*)(& _ZTIi)’ (type ‘const std::type_info’) to type ‘char’
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:471:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/include/c++/4.8/ostream:471:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘std::type_info’)
+   std::cout << typeid(a);
+                        ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/local/include/opencv2/core/cvstd.hpp:58,
+                 from /usr/local/include/opencv2/core/base.hpp:54,
+                 from /usr/local/include/opencv2/core.hpp:52,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:90:24: note:   ‘const std::type_info’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+   std::cout << typeid(a);
+                        ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+11:34:26 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::checkHorizontal()’:
+../CAMERA_REGULATOR.H:90:12: warning: value computed is not used [-Wunused-value]
+   typeid(a);
+            ^
+../CAMERA_REGULATOR.H:90:12: warning: statement has no effect [-Wunused-value]
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:35:55 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+11:36:31 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::checkHorizontal()’:
+../CAMERA_REGULATOR.H:89:7: warning: unused variable ‘a’ [-Wunused-variable]
+   int a;
+       ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+12:10:41 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:134:47: error: ‘pointbuf’ was not declared in this scope
+   cv::findChessboardCorners( bwFrame, csSize, pointbuf,
+                                               ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+12:12:14 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+12:13:58 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+12:16:52 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+12:19:21 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+12:20:04 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:138:25: error: no match for ‘operator<<’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘CvSize’)
+   std::cout << pointbuf << csSize;
+                         ^
+../CAMERA_REGULATOR.H:138:25: note: candidates are:
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:108:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+/usr/include/c++/4.8/ostream:108:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}’
+/usr/include/c++/4.8/ostream:117:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/include/c++/4.8/ostream:117:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}’
+/usr/include/c++/4.8/ostream:127:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/include/c++/4.8/ostream:127:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘std::ios_base& (*)(std::ios_base&)’
+/usr/include/c++/4.8/ostream:166:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/include/c++/4.8/ostream:166:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘long int’
+/usr/include/c++/4.8/ostream:170:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/include/c++/4.8/ostream:170:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘long unsigned int’
+/usr/include/c++/4.8/ostream:174:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/include/c++/4.8/ostream:174:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘bool’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:91:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from ‘CvSize’ to ‘short int’
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:181:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/include/c++/4.8/ostream:181:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘short unsigned int’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:105:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from ‘CvSize’ to ‘int’
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:192:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/include/c++/4.8/ostream:192:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘unsigned int’
+/usr/include/c++/4.8/ostream:201:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/include/c++/4.8/ostream:201:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘long long int’
+/usr/include/c++/4.8/ostream:205:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/include/c++/4.8/ostream:205:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘long long unsigned int’
+/usr/include/c++/4.8/ostream:220:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/include/c++/4.8/ostream:220:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘double’
+/usr/include/c++/4.8/ostream:224:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/include/c++/4.8/ostream:224:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘float’
+/usr/include/c++/4.8/ostream:232:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/include/c++/4.8/ostream:232:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘long double’
+/usr/include/c++/4.8/ostream:245:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/include/c++/4.8/ostream:245:7: note:   no known conversion for argument 1 from ‘CvSize’ to ‘const void*’
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:119:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from ‘CvSize’ to ‘std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}’
+In file included from /usr/local/include/opencv2/core/cvstd.inl.hpp:48:0,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/complex:524:5: note: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+     ^
+/usr/include/c++/4.8/complex:524:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   ‘CvSize’ is not derived from ‘const std::complex<_Tp>’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:548:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/include/c++/4.8/ostream:548:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::csSize’ (type ‘CvSize’) to type ‘const unsigned char*’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:543:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/include/c++/4.8/ostream:543:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::csSize’ (type ‘CvSize’) to type ‘const signed char*’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:530:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/ostream:530:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::csSize’ (type ‘CvSize’) to type ‘const char*’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/ostream:609:0,
+                 from /usr/include/c++/4.8/istream:39,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::csSize’ (type ‘CvSize’) to type ‘const char*’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:513:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/include/c++/4.8/ostream:513:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   mismatched types ‘const _CharT*’ and ‘CvSize’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:493:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/include/c++/4.8/ostream:493:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::csSize’ (type ‘CvSize’) to type ‘unsigned char’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:488:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/include/c++/4.8/ostream:488:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::csSize’ (type ‘CvSize’) to type ‘signed char’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:482:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:482:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::csSize’ (type ‘CvSize’) to type ‘char’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:476:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:476:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   cannot convert ‘((CAMERA_REGULATOR*)this)->CAMERA_REGULATOR::csSize’ (type ‘CvSize’) to type ‘char’
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/istream:39:0,
+                 from /usr/include/c++/4.8/sstream:38,
+                 from /usr/include/c++/4.8/complex:45,
+                 from /usr/local/include/opencv2/core/cvstd.inl.hpp:48,
+                 from /usr/local/include/opencv2/core.hpp:3207,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/ostream:471:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/include/c++/4.8/ostream:471:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘CvSize’)
+   std::cout << pointbuf << csSize;
+                            ^
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/local/include/opencv2/core/cvstd.hpp:58,
+                 from /usr/local/include/opencv2/core/base.hpp:54,
+                 from /usr/local/include/opencv2/core.hpp:52,
+                 from /usr/local/include/opencv2/core/types_c.h:101,
+                 from /usr/local/include/opencv2/core/core_c.h:48,
+                 from /usr/local/include/opencv/cv.h:63,
+                 from ../CAMERA_REGULATOR.H:11,
+                 from ../CAMERA_REGULATOR.cpp:10:
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note:   template argument deduction/substitution failed:
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:138:28: note:   ‘CvSize’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+   std::cout << pointbuf << csSize;
+                            ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+12:20:16 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+12:20:39 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:21:19 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:138:47: error: expected ‘;’ before ‘csSize’
+   std::cout << pointbuf << csSize.width <<"x" csSize.height;
+                                               ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+14:21:29 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:22:17 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:23:17 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:24:22 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:25:24 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:26:28 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:27:59 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:32:39 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:34:34 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:35:21 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:36:50 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:37:11 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:37:34 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+14:44:27 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:141:8: warning: unused variable ‘f’ [-Wunused-variable]
+   bool f=cv::findChessboardCorners( bwFrame, csSize, pointbuf,
+        ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:48:12 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:131:47: error: ‘in’ was not declared in this scope
+  void convert2GRAY(cv::Mat & in,cv::Mat & out=in)
+                                               ^
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:146:8: warning: unused variable ‘f’ [-Wunused-variable]
+   bool f=cv::findChessboardCorners( bwFrame, csSize, pointbuf,
+        ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+14:48:26 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H:131:47: error: could not convert ‘0’ from ‘int’ to ‘cv::Mat&’
+  void convert2GRAY(cv::Mat & in,cv::Mat & out=0)
+                                               ^
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:146:8: warning: unused variable ‘f’ [-Wunused-variable]
+   bool f=cv::findChessboardCorners( bwFrame, csSize, pointbuf,
+        ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+14:49:33 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:146:8: warning: unused variable ‘f’ [-Wunused-variable]
+   bool f=cv::findChessboardCorners( bwFrame, csSize, pointbuf,
+        ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:50:55 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:146:8: warning: unused variable ‘f’ [-Wunused-variable]
+   bool f=cv::findChessboardCorners( bwFrame, csSize, pointbuf,
+        ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+14:51:22 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calibrate()’:
+../CAMERA_REGULATOR.H:145:8: warning: unused variable ‘f’ [-Wunused-variable]
+   bool f=cv::findChessboardCorners( bwFrame, csSize, pointbuf,
+        ^
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:05:14 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:12:35 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:13:05 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:13:19 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+make: Nie ma nic do zrobienia w `all'.
+15:20:15 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:21:40 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:36:34 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+In file included from ../CAMERA_REGULATOR.cpp:10:0:
+../CAMERA_REGULATOR.H: In member function ‘void CAMERA_REGULATOR::calcBoardCornerPositions(cv::Size, float, std::vector<cv::Point3_<float> >&)’:
+../CAMERA_REGULATOR.H:88:4: error: break statement not within loop or switch
+    break;
+    ^
+make: *** [CAMERA_REGULATOR.o] Błąd 1
+15:36:46 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:55:15 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:56:02 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:56:28 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+15:58:05 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+16:00:28 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+16:01:04 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 
+16:07:31 **** Incremental Build of configuration Debug for project ALGORYTMY ****
+make all 
+Building file: ../CAMERA_REGULATOR.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CAMERA_REGULATOR.d" -MT"CAMERA_REGULATOR.d" -o "CAMERA_REGULATOR.o" "../CAMERA_REGULATOR.cpp"
+Finished building: ../CAMERA_REGULATOR.cpp
+ 
+Building target: ALGORYTMY
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "ALGORYTMY"  ./CAMERA_REGULATOR.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_videostab -lopencv_stitching -lopencv_calib3d
+Finished building target: ALGORYTMY
+ 

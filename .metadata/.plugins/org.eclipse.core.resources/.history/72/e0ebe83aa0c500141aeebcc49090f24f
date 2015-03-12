@@ -1,0 +1,138 @@
+/*
+ * CAMERA_REGULATOR.H
+ *
+ *  Created on: 4 mar 2015
+ *      Author: szymon
+ */
+
+#ifndef CAMERA_REGULATOR_H_
+#define CAMERA_REGULATOR_H_
+
+#include <opencv/cv.h>
+#include <opencv/cv.h>
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/calib3d/calib3d.hpp>
+#include <opencv2/video.hpp>
+#include <opencv2/stitching.hpp>
+#include <iostream>
+#include <typeinfo>
+#include <cstdio>
+#include "DEF.H"
+
+class CAMERA_REGULATOR {
+
+private:
+
+	cv::VideoCapture cap;
+	cv::Mat foundedCorners;
+	cv::Mat lastFrame;
+	cv::Mat lastFrameGray;
+	CvSize csSize;
+	std::vector<cv::Mat> arrayOfCorners;
+
+
+	std::vector<cv::Point3f> corners;
+
+
+	int centerX;
+	int centerY;
+	cv::Scalar a;
+
+	CAMERA_REGULATOR(CAMERA_REGULATOR& cam) {
+		//TODO
+	}
+
+	//METHODS
+
+	void receiveFrame(); // GET FRAME FROM CAM
+	cv::Mat& getLastFrame() ;
+	bool findChessboard() ;
+	void checkHorizontal() ;
+	void checkVertical();
+	inline void BGR2GRAY(cv::Mat & in,cv::Mat & out);
+
+
+	void calibrate()
+	{
+
+//		cv::Mat bwFrame;
+//		BGR2GRAY(lastFrame,bwFrame);
+//		cv::Mat pointbuf;
+//
+//		cv::findChessboardCorners( bwFrame, csSize, pointbuf,
+//		cv::CALIB_CB_ADAPTIVE_THRESH | cv::CALIB_CB_FAST_CHECK | cv::CALIB_CB_NORMALIZE_IMAGE);
+
+
+
+		//normalize
+
+		//calcCorners
+
+		this->calcBoardCornerPositions(csSize,1.0f,corners);
+
+
+
+	}
+
+	void calcBoardCornerPositions(cv::Size boardSize, float squareSize, std::vector<cv::Point3f>& corners)
+	{
+	corners.clear();
+
+	  for( int i = 0; i < boardSize.height; ++i )
+	    for( int j = 0; j < boardSize.width; ++j )
+	        corners.push_back(cv::Point3f(float( j*squareSize ), float( i*squareSize ), 0));
+	  break;
+
+
+
+	}
+
+
+public:
+
+	CAMERA_REGULATOR(int camera = 0, CvSize size = CvSize(8, 5),
+			cv::Scalar color = cv::Scalar(200)) :
+			csSize(size), a(color) {
+		cap.open(camera);
+
+	}
+
+	~CAMERA_REGULATOR() {
+		cap.release();
+	}
+
+	//METHODS
+
+	void run() {
+		while (true) {
+			if (findChessboard()) {
+
+				cv::circle(lastFrame, cv::Point(centerX, centerY), 80, a, 20);
+
+				checkHorizontal();
+				checkVertical();
+
+				cv::drawChessboardCorners(lastFrame, csSize, foundedCorners, 1);
+
+
+			}
+			cv::imshow("N", lastFrame);
+
+			char pressedKey=cv::waitKey(1);
+			if(pressedKey=='c')
+				break;
+			else if ( pressedKey=='p')
+				calibrate();
+
+		}
+	}
+
+	void stop() {
+
+	}
+
+};
+
+#endif /* CAMERA_REGULATOR_H_ */
